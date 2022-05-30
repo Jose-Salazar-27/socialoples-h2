@@ -6,9 +6,21 @@
  * 
  * output => ["Foo","Bar","Baz","Qux","Echo"]   
  */
+
 let arr = ["foo","bar","baz","qux","echo"];
 let result = [];
+let index = 0;
 
+while (index < arr.length) {
+    
+    const capitalizeFunction = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    };
 
+    result.push(capitalizeFunction(arr[index]))
+    index++;
+};
+
+console.log(result);
 //export result
 module.exports = result;

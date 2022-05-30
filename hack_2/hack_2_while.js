@@ -7,6 +7,14 @@
  */
 let result = [];
 
+let index = 1;
+
+while(index < 6) {
+    result.push(index)
+    index++;
+}
+
+console.log(result);
 
 //export result
 module.exports = result;

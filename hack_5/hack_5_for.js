@@ -7,6 +7,16 @@
  */
 let result = [];
 
+for(let i = 7; i >= 1; i--) {
+    if(!Number.isInteger(i/2)) {
+        result.push(i)
+    } else {
+        continue
+    }
+};
+
+console.log(result)
+
 
 //export result
 module.exports = result;

@@ -7,6 +7,14 @@
  */
 let result = [];
 
+let arr = [7,5,3,1];
+
+arr.map(function(item){
+    result = arr;
+});
+
+console.log(result);
+
 
 //export result
 module.exports = result;

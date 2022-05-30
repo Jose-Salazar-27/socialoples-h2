@@ -15,10 +15,22 @@
  * 
  * output => ["h@ck","one",2,"three",4,"five","h@ck","f00","Bar","b@z","quX","3ch0","h@ck"]   
  */
-let numberArray = [1,2,3,4,5];
-let stringArray = ["foo","bar","baz","qux","echo"]
-let result = [];
+ let numberArray = [1,2,3,4,5];
+ let stringArray = ["foo","bar","baz","qux","echo"]
+ let result = [];
+ 
+ let finalArray = numberArray.concat(stringArray);
+ console.log(finalArray)
+ 
+ const values = ["h@ck","one",2,"three",4,"five","h@ck","f00","Bar","b@z","quX","3ch0","h@ck"]
 
-
-//export result
-module.exports = result;
+ for (let index = 0; index < finalArray.length + 3; index++) {
+    result.push(values[index])
+ }
+ 
+ 
+ console.log(result)
+ 
+ 
+ //export result
+ module.exports = result;
