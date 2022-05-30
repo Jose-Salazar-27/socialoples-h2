@@ -1,7 +1,7 @@
 # SOCIAL OPLESK
 ### 🏴‍☠️ HACKS 
 
-#Profesor, si revisa mi repo, sepa que me parti la cabeza haciendo los ultimos ejercios xd
+# Profesor, si revisa mi repo, sepa que me parti la cabeza haciendo los ultimos ejercios xd
 
 <br/>
 
